@@ -2,7 +2,7 @@ this changes the stand postion of GorillaShrits right next to the leader board !
 
 !!! If you wanna see how it looks before doing it, go see the file ''INGAME IMAGE.Png'' !!!
 
-Step 1 : instal the code of gorilla shirt ( https://github.com/developer9998/GorillaShirts )
+Step 1 : install the code of gorilla shirt ( https://github.com/developer9998/GorillaShirts )
 
 step 2 : extract the project
 
