@@ -12,6 +12,8 @@ step 4 : paste it and click ''replace the file in the destination'' in the folde
 
 step 5 : build/compile it and then you're done !
 
+( you can change the cords your self by opening the original file or mine ( forest.cs ) 
+
 
 
 
