@@ -1,11 +1,11 @@
-﻿using GorillaShirts.Interfaces;
-using System;
+using UnityEngine;
 
-namespace GorillaShirts.Locations
+namespace GorillaShirts.Models.Locations
 {
-    internal class Forest : IStandLocation
+    internal class ForestLocation : IStandLocation
     {
-        public GTZone Zone => GTZone.forest;
-        public Tuple<UnityEngine.Vector3, UnityEngine.Vector3> Location => Tuple.Create<UnityEngine.Vector3, UnityEngine.Vector3>(new(-63.250f, 2.935f, -60f), new(0f, 184.340f, 0f));
+        public GTZone[] Zones => [GTZone.forest, GTZone.cityWithSkyJungle];
+        public Vector3 Position => new(-63.250f, 2.935f, -60f);
+        public Vector3 EulerAngles => Vector3.up * 184.340f;
     }
 }
